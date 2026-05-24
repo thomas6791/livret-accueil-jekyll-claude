@@ -1,0 +1,45 @@
+<nav class="navbar">
+  <div class="navbar-container">
+    <div class="navbar-brand">
+      <a href="{{ '/' | relative_url }}">{{ site.title }}</a>
+    </div>
+
+    <button class="hamburger" id="hamburgerBtn" aria-label="Menu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+    <aside class="sidebar" id="sidebar">
+      <button class="close-btn" id="closeBtn" aria-label="Fermer">×</button>
+
+      <div class="sidebar-content">
+        <ul class="nav-menu">
+          {% assign pages = site.pages | where: "lang", page.lang %}
+          {% for p in pages %}
+            {% if p.ref and p.title %}
+              <li>
+                <a href="{{ p.url | relative_url }}"
+                   {% if p.url == page.url %}class="active"{% endif %}>
+                  {{ p.title }}
+                </a>
+              </li>
+            {% endif %}
+          {% endfor %}
+        </ul>
+
+        <div class="language-selector">
+          <p>Langue / Language / Sprache / Idioma:</p>
+          <ul class="lang-list">
+            <li><a href="/fr{{ page.url | replace: '/' | replace: '/fr' | replace: '/en' | replace: '/de' | replace: '/es' }}">Français</a></li>
+            <li><a href="/en{{ page.url | replace: '/' | replace: '/fr' | replace: '/en' | replace: '/de' | replace: '/es' }}">English</a></li>
+            <li><a href="/de{{ page.url | replace: '/' | replace: '/fr' | replace: '/en' | replace: '/de' | replace: '/es' }}">Deutsch</a></li>
+            <li><a href="/es{{ page.url | replace: '/' | replace: '/fr' | replace: '/en' | replace: '/de' | replace: '/es' }}">Español</a></li>
+          </ul>
+        </div>
+      </div>
+    </aside>
+
+    <div class="sidebar-overlay" id="overlay"></div>
+  </div>
+</nav>
