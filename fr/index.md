@@ -1,9 +1,7 @@
 ---
 layout: page
 title: Accueil
-lang: fr
-ref: home
 permalink: /fr/
 ---
-
-# Bienvenue
+Bienvenu
+<a href="/fr/commerces">Commerces</a>

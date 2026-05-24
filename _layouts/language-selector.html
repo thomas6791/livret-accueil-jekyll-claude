@@ -6,37 +6,37 @@
     <title>{{ site.title }}</title>
     <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
   </head>
-  <body>
+  <body class="home-page">
     <div class="language-selector-page">
       <div class="selector-container">
         <div class="selector-header">
           <h1>{{ site.title }}</h1>
-          <p>Choisissez votre langue / Choose your language / Wählen Sie Ihre Sprache / Elige tu idioma</p>
+          <p class="welcome-text">Welcome • Bienvenue • Willkommen • Bienvenido</p>
+        </div>
+
+        <div class="selector-subtitle">
+          <p>Veuillez sélectionner votre langue / Please select your language</p>
         </div>
 
         <div class="language-options">
-          <a href="/fr/" class="language-card" lang="fr">
-            <div class="language-flag">🇫🇷</div>
-            <div class="language-name">Français</div>
-            <div class="language-subtitle">French</div>
-          </a>
-
-          <a href="/en/" class="language-card" lang="en">
+          <a href="/en/" class="language-card" data-lang="en">
             <div class="language-flag">🇬🇧</div>
             <div class="language-name">English</div>
-            <div class="language-subtitle">English</div>
           </a>
 
-          <a href="/de/" class="language-card" lang="de">
+          <a href="/fr/" class="language-card" data-lang="fr">
+            <div class="language-flag">🇫🇷</div>
+            <div class="language-name">Français</div>
+          </a>
+
+          <a href="/de/" class="language-card" data-lang="de">
             <div class="language-flag">🇩🇪</div>
             <div class="language-name">Deutsch</div>
-            <div class="language-subtitle">German</div>
           </a>
 
-          <a href="/es/" class="language-card" lang="es">
+          <a href="/es/" class="language-card" data-lang="es">
             <div class="language-flag">🇪🇸</div>
             <div class="language-name">Español</div>
-            <div class="language-subtitle">Spanish</div>
           </a>
         </div>
       </div>

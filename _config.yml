@@ -5,15 +5,10 @@ description: Livret d'accueil numérique pour voyageurs
 baseurl: ""
 url: ""
 
-# Multilingual settings
-languages: ["fr", "en", "de", "es"]
-default_lang: "fr"
-
 # Build settings
 theme: minima
 plugins:
   - jekyll-feed
-  - jekyll-polyglot
 
 exclude:
   - .sass-cache/
@@ -23,3 +18,4 @@ exclude:
   - Gemfile.lock
   - node_modules/
   - vendor/
+

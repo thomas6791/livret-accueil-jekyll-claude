@@ -1,7 +1,7 @@
 <nav class="navbar">
   <div class="navbar-container">
     <div class="navbar-brand">
-      <a href="{{ '/' | relative_url }}">{{ site.title }}</a>
+      <a href="/">{{ site.title }}</a>
     </div>
 
     <button class="hamburger" id="hamburgerBtn" aria-label="Menu">
@@ -15,26 +15,28 @@
 
       <div class="sidebar-content">
         <ul class="nav-menu">
-          {% assign pages = site.pages | where: "lang", page.lang %}
-          {% for p in pages %}
-            {% if p.ref and p.title %}
-              <li>
-                <a href="{{ p.url | relative_url }}"
-                   {% if p.url == page.url %}class="active"{% endif %}>
-                  {{ p.title }}
-                </a>
-              </li>
-            {% endif %}
-          {% endfor %}
+          {% if page.url contains '/en/' %}
+            <li><a href="/en/" {% if page.url == '/en/' or page.url == '/en/index.html' %}class="active"{% endif %}>Home</a></li>
+            <li><a href="/en/stores/" {% if page.url == '/en/stores/' or page.url == '/en/stores.html' %}class="active"{% endif %}>Stores</a></li>
+          {% elsif page.url contains '/de/' %}
+            <li><a href="/de/" {% if page.url == '/de/' or page.url == '/de/index.html' %}class="active"{% endif %}>Startseite</a></li>
+            <li><a href="/de/geschaefte/" {% if page.url == '/de/geschaefte/' or page.url == '/de/geschaefte.html' %}class="active"{% endif %}>Geschäfte</a></li>
+          {% elsif page.url contains '/es/' %}
+            <li><a href="/es/" {% if page.url == '/es/' or page.url == '/es/index.html' %}class="active"{% endif %}>Inicio</a></li>
+            <li><a href="/es/tiendas/" {% if page.url == '/es/tiendas/' or page.url == '/es/tiendas.html' %}class="active"{% endif %}>Tiendas</a></li>
+          {% else %}
+            <li><a href="/fr/" {% if page.url == '/fr/' or page.url == '/fr/index.html' %}class="active"{% endif %}>Accueil</a></li>
+            <li><a href="/fr/commerces/" {% if page.url == '/fr/commerces/' or page.url == '/fr/commerces.html' %}class="active"{% endif %}>Commerces</a></li>
+          {% endif %}
         </ul>
 
         <div class="language-selector">
-          <p>Langue / Language / Sprache / Idioma:</p>
+          <p>🌐 Langue / Language:</p>
           <ul class="lang-list">
-            <li><a href="/fr{{ page.url | replace: '/' | replace: '/fr' | replace: '/en' | replace: '/de' | replace: '/es' }}">Français</a></li>
-            <li><a href="/en{{ page.url | replace: '/' | replace: '/fr' | replace: '/en' | replace: '/de' | replace: '/es' }}">English</a></li>
-            <li><a href="/de{{ page.url | replace: '/' | replace: '/fr' | replace: '/en' | replace: '/de' | replace: '/es' }}">Deutsch</a></li>
-            <li><a href="/es{{ page.url | replace: '/' | replace: '/fr' | replace: '/en' | replace: '/de' | replace: '/es' }}">Español</a></li>
+            <li><a href="/en/">English</a></li>
+            <li><a href="/fr/">Français</a></li>
+            <li><a href="/de/">Deutsch</a></li>
+            <li><a href="/es/">Español</a></li>
           </ul>
         </div>
       </div>
