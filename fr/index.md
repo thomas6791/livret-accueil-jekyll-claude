@@ -53,7 +53,7 @@ Pour payer, vous pouvez utiliser l'application easypark
     </li>
 
     <li>
-        <a href="#">
+        <a href="/fr/dechets">
             <div class="img_menu">
             <img src="../assets/images/sac-a-ordures.png" width="100">
             </div>

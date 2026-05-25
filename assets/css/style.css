@@ -390,6 +390,14 @@ ul, ol {
 h1, h2, .navbar-brand a {
   font-family: "Outfit", sans-serif;
 }
+.flex_img {
+  display: flex;
+  object-fit: cover;
+  img {
+    width: 100%;
+    height: 100%;
+  }
+}
 #anchors_nav {
   display: flex;
   gap: 0.5rem;
