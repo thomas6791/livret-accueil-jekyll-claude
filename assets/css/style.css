@@ -384,7 +384,7 @@ body {
 }
 
 
-ul {
+ul, ol {
   list-style-position: inside;
 }
 h1, h2, .navbar-brand a {

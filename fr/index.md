@@ -60,4 +60,12 @@ Pour payer, vous pouvez utiliser l'application easypark
             <h2>Gestion des déchets</h2>
         </a>
     </li>
+    <li>
+        <a href="/fr/equipements/">
+            <div class="img_menu">
+            <img src="../assets/images/reparation.png" width="100">
+            </div>
+            <h2>Equipements & maintenance</h2>
+        </a>
+    </li>
 </ul>
