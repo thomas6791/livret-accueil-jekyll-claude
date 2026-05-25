@@ -7,4 +7,4 @@ Linie C9: Hoenheim Bahnhof / Vendenheim Bahnhof → Bushaltestelle **Trois Épis
 
 [CTS-Netzwerk Fahrplan](https://media.cts-strasbourg.eu/fiches-horaires/lignes/Hiver%202025_2026/LigneC9_rentree25.pdf)
 
-<object data="../assets/files/LigneC9_rentree25.pdf" width="1000" height="1000" type='application/pdf'></object>
+<img src="/assets/images/plan-cts.png">

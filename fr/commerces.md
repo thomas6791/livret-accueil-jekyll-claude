@@ -4,7 +4,7 @@ title: Commerces
 permalink: /fr/commerces/
 ---
 <nav>
-    <ul>
+    <ul id="anchors_nav">
         <li><a href="#supermarches">Supermarchés</a></li>
         <li><a href="#boulangeries">Boulangeries & Pâtisseries</a></li>
         <li><a href="#pharmacies">Pharmacies</a></li>
