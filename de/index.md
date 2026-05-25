@@ -8,6 +8,16 @@ Willkommen, hier sind einige Informationen, um Ihnen zu helfen:
 **WLAN-Netzwerkname**: Livebox-3DD6
 
 **WLAN-Code**: hPxQXrP7JZNLhk5HkV
+
+<hr>
+An Samstagen, Sonntagen und Feiertagen ist das Parken kostenlos.
+
+Von Montag bis Freitag ist das Parken von 9 bis 12 Uhr und von 14 bis 18 Uhr gebührenpflichtig.
+
+Zur Bezahlung können Sie die App „easypark“ nutzen
+<hr>
+<br>
+
 <ul class="menu_grid">
     <li>
         <a href="/de/allgemeine-bemerkungen/">

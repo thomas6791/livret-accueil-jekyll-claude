@@ -8,6 +8,16 @@ Bienvenu, voici quelques informations pour vous aider :
 **Nom du réseau wifi** : Livebox-3DD6
 
 **Code wifi** : hPxQXrP7JZNLhk5HkV
+
+<hr>
+Le stationnement est gratuit les samedis, dimanches & jours fériés.
+
+Le stationnement est payant du lundi au vendredi de 9h à 12h et de 14h à 18h.
+
+Pour payer, vous pouvez utiliser l'application easypark
+<hr>
+<br>
+
 <ul class="menu_grid">
     <li>
         <a href="/fr/remarques/">

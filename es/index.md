@@ -8,6 +8,16 @@ Bienvenido, aquí hay información para ayudarlo:
 **Nombre de la Red WiFi**: Livebox-3DD6
 
 **Código WiFi**: hPxQXrP7JZNLhk5HkV
+
+<hr>
+El aparcamiento es gratuito los sábados, domingos y festivos.
+
+El aparcamiento es de pago de lunes a viernes, de 9:00 a 12:00 y de 14:00 a 18:00.
+
+Para pagar, puede utilizar la aplicación EasyPark
+<hr>
+<br>
+
 <ul class="menu_grid">
     <li>
         <a href="/es/observaciones-generales/">

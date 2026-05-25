@@ -8,6 +8,16 @@ Welcome, here is some information to help you:
 **WiFi Network Name**: Livebox-3DD6
 
 **WiFi Code**: hPxQXrP7JZNLhk5HkV
+
+<hr>
+Parking is free on Saturdays, Sundays and public holidays.
+
+Parking is subject to a charge from Monday to Friday, from 9am to 12pm and from 2pm to 6pm.
+
+To pay, you can use the EasyPark app
+<hr>
+<br>
+
 <ul class="menu_grid">
     <li>
         <a href="/en/general-remarks/">
