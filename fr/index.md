@@ -3,42 +3,51 @@ layout: page
 title: Accueil
 permalink: /fr/
 ---
-Bienvenu
-Voici quelques informations pour vous aider :
-Le wifi :
-réseau:
-code:
+Bienvenu, voici quelques informations pour vous aider :
+
+**Nom du réseau wifi** : Livebox-3DD6
+
+**Code wifi** : hPxQXrP7JZNLhk5HkV
 <ul class="menu_grid">
     <li>
-        <a href="#">
+        <a href="/fr/remarques/">
+            <div class="img_menu">
             <img src="../assets/images/manuel.png" width="100">
+            </div>
             <h2>Remarques générales</h2>
         </a>
     </li>
     <li>
-        <a href="#">
+        <a href="/fr/commerces">
+            <div class="img_menu">
             <img src="../assets/images/petit-dejeuner.png" width="100">
+            </div>
             <h2>Commerces</h2>
         </a>
     </li>
     <li>
-        <a href="#">
+        <a href="/fr/urgences">
+            <div class="img_menu">
             <img src="../assets/images/sos.png" width="100">
+            </div>
             <h2>Urgences</h2>
         </a>
     </li>
     <li>
-        <a href="#">
-            <img src="../assets/images/tram.png" width="100">
+        <a href="/fr/transports">
+            <div class="img_menu">
+                <img src="../assets/images/tram.png" width="100">
+            </div>
             <h2>Transport</h2>
         </a>
     </li>
 
     <li>
         <a href="#">
+            <div class="img_menu">
             <img src="../assets/images/sac-a-ordures.png" width="100">
+            </div>
             <h2>Gestion des déchets</h2>
         </a>
     </li>
 </ul>
-<a href="/fr/commerces">Commerces</a>
