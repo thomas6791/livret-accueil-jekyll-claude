@@ -53,11 +53,19 @@ Zur Bezahlung können Sie die App „easypark“ nutzen
     </li>
 
     <li>
-        <a href="#">
+        <a href="/de/abfall/">
             <div class="img_menu">
             <img src="../assets/images/sac-a-ordures.png" width="100">
             </div>
             <h2>Abfallwirtschaft</h2>
+        </a>
+    </li>
+    <li>
+        <a href="/de/ausruestung/">
+            <div class="img_menu">
+            <img src="../assets/images/reparation.png" width="100">
+            </div>
+            <h2>Ausrüstung & Wartung</h2>
         </a>
     </li>
 </ul>

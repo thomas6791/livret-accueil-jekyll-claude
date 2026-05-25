@@ -53,11 +53,19 @@ To pay, you can use the EasyPark app
     </li>
 
     <li>
-        <a href="#">
+        <a href="/en/waste/">
             <div class="img_menu">
             <img src="../assets/images/sac-a-ordures.png" width="100">
             </div>
             <h2>Waste Management</h2>
+        </a>
+    </li>
+    <li>
+        <a href="/en/equipment/">
+            <div class="img_menu">
+            <img src="../assets/images/reparation.png" width="100">
+            </div>
+            <h2>Equipment & Maintenance</h2>
         </a>
     </li>
 </ul>

@@ -53,11 +53,19 @@ Para pagar, puede utilizar la aplicación EasyPark
     </li>
 
     <li>
-        <a href="#">
+        <a href="/es/residuos/">
             <div class="img_menu">
             <img src="../assets/images/sac-a-ordures.png" width="100">
             </div>
             <h2>Gestión de Residuos</h2>
+        </a>
+    </li>
+    <li>
+        <a href="/es/equipamientos/">
+            <div class="img_menu">
+            <img src="../assets/images/reparation.png" width="100">
+            </div>
+            <h2>Equipos y Mantenimiento</h2>
         </a>
     </li>
 </ul>
